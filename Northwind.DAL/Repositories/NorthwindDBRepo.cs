@@ -23,7 +23,7 @@ namespace Northwind.DAL.Repositories
                         var result = (await connection.QueryAsync<Customer>(sql, commandType: System.Data.CommandType.StoredProcedure));
                         await connection.CloseAsync();
 
-                        return new List<Customer>();
+                        return result;
                     }
                 }
 
