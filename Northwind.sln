@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.API", "Northwind\Northwind.API.csproj", "{0A5A4854-5C46-4FC5-A07E-C8CF0C22757F}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Northwind.DB", "Northwind.DB\Northwind.DB.sqlproj", "{97011BBA-235B-48E9-9A83-68B1249EC4A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Domain", "Northwind.Domain\Northwind.Domain.csproj", "{900F66A2-3184-42DB-8527-CEB20B0105B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.DAL", "Northwind.DAL\Northwind.DAL.csproj", "{5197B1C9-EB8F-4F14-9968-517EC0248175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A5A4854-5C46-4FC5-A07E-C8CF0C22757F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5A4854-5C46-4FC5-A07E-C8CF0C22757F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5A4854-5C46-4FC5-A07E-C8CF0C22757F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5A4854-5C46-4FC5-A07E-C8CF0C22757F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97011BBA-235B-48E9-9A83-68B1249EC4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97011BBA-235B-48E9-9A83-68B1249EC4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97011BBA-235B-48E9-9A83-68B1249EC4A0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{97011BBA-235B-48E9-9A83-68B1249EC4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97011BBA-235B-48E9-9A83-68B1249EC4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97011BBA-235B-48E9-9A83-68B1249EC4A0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{900F66A2-3184-42DB-8527-CEB20B0105B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900F66A2-3184-42DB-8527-CEB20B0105B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900F66A2-3184-42DB-8527-CEB20B0105B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900F66A2-3184-42DB-8527-CEB20B0105B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5197B1C9-EB8F-4F14-9968-517EC0248175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5197B1C9-EB8F-4F14-9968-517EC0248175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5197B1C9-EB8F-4F14-9968-517EC0248175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5197B1C9-EB8F-4F14-9968-517EC0248175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
