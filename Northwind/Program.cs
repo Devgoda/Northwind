@@ -12,9 +12,10 @@ builder.Services.AddCors(new Action<Microsoft.AspNetCore.Cors.Infrastructure.Cor
 {
     options.AddDefaultPolicy(new Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicy
     {
-        Headers = { "Content-Type", "x-functions-key" },
+        Headers = { "Content-Type" },
         Methods = { "GET", "POST", "PUT", "DELETE" },
-        Origins = { "*" }
+        Origins = { "*" },
+        SupportsCredentials = true
     });
 }));
 
