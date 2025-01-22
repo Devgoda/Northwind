@@ -11,7 +11,7 @@ namespace Northwind.API
         private readonly INorthwindDBRepo _northwindDBRepo = northwindDBRepo;
 
         [Function("Customers")]
-        public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get")] HttpRequest req)
+        public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get")] HttpRequest req)
         {
             //var idFilter = req.Query["CustomerID"];
             //var companyNameFilter = req.Query["CompanyName"];
