@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
@@ -10,8 +11,9 @@ namespace Northwind.API
     {
         private readonly INorthwindDBRepo _northwindDBRepo = northwindDBRepo;
 
+        [DisableCors]
         [Function("Customers")]
-        public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get")] HttpRequest req)
+        public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "customers")] HttpRequest req)
         {
             return new OkObjectResult(await _northwindDBRepo.GetCustomersAsync());
 
