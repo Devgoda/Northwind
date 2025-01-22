@@ -13,9 +13,6 @@ namespace Northwind.API
         [Function("Customers")]
         public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get")] HttpRequest req)
         {
-            //var idFilter = req.Query["CustomerID"];
-            //var companyNameFilter = req.Query["CompanyName"];
-
             return new OkObjectResult(await _northwindDBRepo.GetCustomersAsync());
 
         }
