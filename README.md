@@ -2,7 +2,7 @@
 To run this project: 
 - Open the solution in Visual Studio (recommended 2022, Community edition should suffice)
 - Publish the SQL project to your local SQL Server
-  - Pre-requisite: [SQL Server 2022](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (if unsure which version, simply install Express)
+  - Pre-requisite: [SQL Server 2025](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (if unsure which version, simply install Express)
   - Right-click the database project and click "Publish"
     - ![image](https://github.com/user-attachments/assets/a182a2c0-8a7c-45a8-91d3-f8f4f8c3fc47)
   - Click the "Edit" button in the top, and select your local server and connect to it (testing the connection is recommended)
